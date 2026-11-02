@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "surface-container": "#edeef2", "inverse-primary": "#bdc2ff", "tertiary-container": "#6b688b", "inverse-surface": "#2e3134", "on-secondary": "#ffffff", "on-tertiary-container": "#f0ebff", "background": "#f8f9fd", "on-error-container": "#93000a", "tertiary-fixed": "#e4dfff", "inverse-on-surface": "#eff1f5", "surface-container-highest": "#e1e2e6", "surface-bright": "#f8f9fd", "primary": "#2a3bdc", "surface-dim": "#d9dade", "secondary-fixed-dim": "#bcc6e3", "secondary": "#545e77", "on-tertiary": "#ffffff", "surface-container-lowest": "#ffffff", "surface-tint": "#3848e7", "on-tertiary-fixed": "#1a1836", "on-secondary-fixed-variant": "#3d465e", "outline": "#757687", "on-tertiary-fixed-variant": "#464363", "primary-fixed": "#dfe0ff", "on-primary-fixed-variant": "#1628d0", "tertiary": "#535071", "surface": "#f8f9fd", "on-primary-container": "#eeedff", "secondary-fixed": "#d9e2ff", "on-surface": "#191c1f", "on-error": "#ffffff", "surface-variant": "#e1e2e6", "outline-variant": "#c5c5d8", "error": "#ba1a1a", "on-surface-variant": "#454655", "error-container": "#ffdad6", "primary-container": "#4858f5", "tertiary-fixed-dim": "#c7c2e9", "surface-container-low": "#f2f3f7", "on-primary": "#ffffff", "on-secondary-container": "#58627c", "secondary-container": "#d5dffd", "surface-container-high": "#e7e8ec", "primary-fixed-dim": "#bdc2ff", "on-background": "#191c1f", "on-primary-fixed": "#000767", "on-secondary-fixed": "#111b31" }, borderRadius: { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, spacing: { "space-md": "1rem", "space-lg": "1.5rem", "margin-tablet": "2rem", "space-xs": "0.25rem", "gutter": "1.25rem", "space-xl": "2.25rem", "gutter-desktop": "1.5rem", "margin": "1rem", "margin-desktop": "3rem", "space-sm": "0.5rem" }, fontFamily: { "currency-stat": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "display-hero-mobile": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "display-hero": ["Plus Jakarta Sans"] }, fontSize: { "currency-stat": ["28px", { "lineHeight": "34px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-sm": ["13px", { "lineHeight": "18px", "letterSpacing": "0.005em", "fontWeight": "400" }], "body-lg": ["16px", { "lineHeight": "24px", "letterSpacing": "-0.005em", "fontWeight": "400" }], "headline-sm": ["18px", { "lineHeight": "24px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "700" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-md": ["22px", { "lineHeight": "28px", "letterSpacing": "-0.015em", "fontWeight": "600" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "display-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.025em", "fontWeight": "700" }], "body-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }], "display-hero": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.03em", "fontWeight": "700" }] } } } };</script><style>@layer base { html, body { min-height: 100%; margin: 0; padding: 0; } body { overscroll-behavior-y: none; -webkit-font-smoothing: antialiased; } .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); } .pt-safe { padding-top: env(safe-area-inset-top, 0px); } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style></head><body class="bg-surface font-body-md text-on-surface antialiased flex flex-col min-h-full"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(24,34,56,0.04)]"><div class="h-16 px-gutter flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="Harbor Emblem Logo" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1V7BOayx_jOtxQuwNMRJjbtehgFtRP8SiDRdUWF7uTnUhXEK3dKEmN1LqsgQvzOzXS2MMHg_HsLfg7uutyAmO0DkCqo3iFKxhSrujgw6OE8FzL4Sun-2nGYIoY89FBWlyIQwyjgRT8Ffzd_acNe-tdG9c-JCTeRxnHqBPMnHf7Q7lm22NglUEoHFvarPcBNYni64g1dGcivvlWkhMy85l9b8YCd9m1HBF9AuHtiVaBK0klgg11Q9gCqWnpJ"/><div class="flex flex-col min-w-0"><span class="font-headline-sm text-headline-sm text-on-surface leading-none tracking-tight truncate">Harbor</span><span class="font-label-sm text-label-sm text-on-surface-variant leading-tight truncate">Home</span></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><a aria-label="Notifications" class="relative w-11 h-11 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container-high transition-colors" data-path="notifications" href="#"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-primary-container ring-2 ring-surface"></span></a><a aria-label="Profile" class="flex items-center p-0.5 rounded-full hover:ring-2 hover:ring-primary/20 transition-all" data-path="more" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDA3k5_X8tbWsWrBG6Q7wVHuIaQhYrUS-zMFPHE0RPw7TgJzlhZcUeY3ixG-amcGpsrJggeF7p4AurWmCHKUG6qvutdflVkGHv3DE3oZqwMQsE--HdUHIHwdAMfwLPKLvGSf4CGyVQYOZx4eAQRXewCLGirbFlMg_J77Fh0nQ15nNR9TydJB84LWyb3-tEZjmIleD1WJm3vMsoQMqYuJ6HytEdIjkfGtD565KXhgmYczzSs7FFbl0goWg"/></a></div></div></header><main class="flex-1 w-full pt-16 pb-28 bg-surface px-margin"><div class="flex flex-col w-full gap-y-5">
+<!-- Greeting & Period Bar -->
+<div class="flex items-center justify-between pt-1">
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5 mb-0.5">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-secondary tracking-wide uppercase">Financial Pulse</span>
+</div>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface">Good morning, Maya</h1>
+</div>
+<button class="flex items-center gap-1 px-3 py-1.5 rounded-full bg-surface-container-low text-on-surface hover:bg-surface-container transition-all active:scale-95 shadow-sm" type="button">
+<span class="font-label-md text-label-md">October 2024</span>
+<span class="material-symbols-outlined text-[16px] text-secondary">expand_more</span>
+</button>
+</div>
+<!-- Financial Overview Hero Card -->
+<div class="relative w-full rounded-lg p-5 overflow-hidden shadow-xl bg-gradient-to-br from-[#182238] via-[#151c2e] to-[#0d121e] text-on-primary">
+<!-- Subtle SVG wave pattern background -->
+<svg class="absolute inset-0 w-full h-full opacity-10 pointer-events-none" preserveaspectratio="none" viewbox="0 0 400 240">
+<path d="M0,160 C90,130 180,210 270,165 C330,135 370,175 400,160 L400,240 L0,240 Z" fill="currentColor"></path>
+<path d="M0,190 C110,170 200,230 310,195 C360,180 380,205 400,190 L400,240 L0,240 Z" fill="currentColor" opacity="0.5"></path>
+</svg>
+<div class="relative z-10 flex flex-col gap-4">
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-inverse-primary/80 uppercase tracking-wider">Total Net Worth</span>
+<div class="flex items-baseline gap-2 mt-1">
+<span class="font-display-hero-mobile text-display-hero-mobile tracking-tight text-white">$124,850.40</span>
+<span class="font-label-md text-label-md text-inverse-primary/70">CAD</span>
+</div>
+</div>
+<div class="flex items-center gap-1 px-2.5 py-1 rounded-full bg-[#269B91]/20 text-[#269B91]">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">trending_up</span>
+<span class="font-label-sm text-label-sm">+3.8%</span>
+</div>
+</div>
+<!-- Stats Ribbon -->
+<div class="grid grid-cols-3 gap-2 p-3 rounded-DEFAULT bg-white/5 backdrop-blur-md">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-inverse-primary/70">Income</span>
+<span class="font-headline-sm text-headline-sm text-white mt-0.5">$6,450.00</span>
+<span class="font-label-sm text-label-sm text-inverse-primary/60 mt-0.5">3 deposits</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-inverse-primary/70">Spent</span>
+<span class="font-headline-sm text-headline-sm text-white mt-0.5">$3,820.65</span>
+<span class="font-label-sm text-label-sm text-[#ffdad6]/80 mt-0.5">59% pacing</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-inverse-primary/70">Remaining</span>
+<span class="font-headline-sm text-headline-sm text-[#bdc2ff] mt-0.5">$1,379.35</span>
+<div class="mt-1 flex items-center">
+<span class="font-label-sm text-label-sm px-1.5 py-0.2 rounded-full bg-primary-fixed/20 text-primary-fixed">26% left</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Editorial Financial Insights Card -->
+<div class="w-full p-4 rounded-DEFAULT bg-secondary-fixed/30 flex items-start gap-3 shadow-sm">
+<div class="w-9 h-9 rounded-full bg-primary-container text-on-primary flex items-center justify-center flex-shrink-0 mt-0.5 shadow-sm">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+</div>
+<div class="flex flex-col gap-1 min-w-0">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-primary font-bold">Weekly Briefing Ready</span>
+<span class="font-label-sm text-label-sm text-secondary">Just now</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+        You are pacing <strong class="text-on-surface font-semibold">$180 under</strong> your average dining spend this week. Excellent buffer for your emergency fund!
+      </p>
+</div>
+</div>
+<!-- Weekly & Daily Spending Pace -->
+<div class="w-full p-4 rounded-DEFAULT bg-surface-container-lowest shadow-sm flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Daily Spending Pace</span>
+<span class="font-label-sm text-label-sm text-secondary">Target: $128 / safe daily spend</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container"></span>
+<span class="font-label-sm text-label-sm text-secondary">Actual</span>
+<span class="w-2.5 h-2.5 rounded-full bg-surface-container-highest ml-1"></span>
+<span class="font-label-sm text-label-sm text-secondary">Safe line</span>
+</div>
+</div>
+<!-- Chart Visualizer -->
+<div class="flex flex-col pt-2">
+<div class="relative h-28 flex items-end justify-between gap-1.5 px-1">
+<!-- Safe Pace Target Horizon Line -->
+<div class="absolute inset-x-0 bottom-[54px] h-[1px] bg-secondary-fixed-dim/70 pointer-events-none flex items-center justify-end pr-1">
+<span class="font-label-sm text-[9px] bg-surface-container-low text-secondary px-1 py-0.5 rounded">$128 target</span>
+</div>
+<!-- Mon (Oct 21) -->
+<div class="flex-1 flex flex-col items-center h-full justify-end group cursor-pointer">
+<div class="relative w-full flex flex-col items-center">
+<span class="opacity-0 group-hover:opacity-100 transition-opacity absolute -top-6 font-label-sm text-label-sm bg-inverse-surface text-inverse-on-surface px-1.5 py-0.5 rounded shadow-md z-20 pointer-events-none">$92</span>
+<div class="w-full max-w-[26px] bg-primary-fixed-dim rounded-t-md transition-all duration-300 group-hover:bg-primary-container" style="height: 42px;"></div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary mt-2">M 21</span>
+</div>
+<!-- Tue (Oct 22) -->
+<div class="flex-1 flex flex-col items-center h-full justify-end group cursor-pointer">
+<div class="relative w-full flex flex-col items-center">
+<span class="opacity-0 group-hover:opacity-100 transition-opacity absolute -top-6 font-label-sm text-label-sm bg-inverse-surface text-inverse-on-surface px-1.5 py-0.5 rounded shadow-md z-20 pointer-events-none">$114</span>
+<div class="w-full max-w-[26px] bg-primary-fixed-dim rounded-t-md transition-all duration-300 group-hover:bg-primary-container" style="height: 50px;"></div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary mt-2">T 22</span>
+</div>
+<!-- Wed (Oct 23) -->
+<div class="flex-1 flex flex-col items-center h-full justify-end group cursor-pointer">
+<div class="relative w-full flex flex-col items-center">
+<span class="opacity-0 group-hover:opacity-100 transition-opacity absolute -top-6 font-label-sm text-label-sm bg-inverse-surface text-inverse-on-surface px-1.5 py-0.5 rounded shadow-md z-20 pointer-events-none">$106</span>
+<div class="w-full max-w-[26px] bg-primary-fixed-dim rounded-t-md transition-all duration-300 group-hover:bg-primary-container" style="height: 48px;"></div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary mt-2">W 23</span>
+</div>
+<!-- Thu (Oct 24 - Peak Gym/Social) -->
+<div class="flex-1 flex flex-col items-center h-full justify-end group cursor-pointer">
+<div class="relative w-full flex flex-col items-center">
+<span class="opacity-0 group-hover:opacity-100 transition-opacity absolute -top-6 font-label-sm text-label-sm bg-inverse-surface text-inverse-on-surface px-1.5 py-0.5 rounded shadow-md z-20 pointer-events-none">$235</span>
+<div class="w-full max-w-[26px] bg-primary-container rounded-t-md transition-all duration-300 shadow-sm" style="height: 98px;"></div>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold mt-2">T 24</span>
+</div>
+<!-- Fri (Oct 25) -->
+<div class="flex-1 flex flex-col items-center h-full justify-end group cursor-pointer">
+<div class="relative w-full flex flex-col items-center">
+<span class="opacity-0 group-hover:opacity-100 transition-opacity absolute -top-6 font-label-sm text-label-sm bg-inverse-surface text-inverse-on-surface px-1.5 py-0.5 rounded shadow-md z-20 pointer-events-none">$140</span>
+<div class="w-full max-w-[26px] bg-primary-fixed-dim rounded-t-md transition-all duration-300 group-hover:bg-primary-container" style="height: 60px;"></div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary mt-2">F 25</span>
+</div>
+<!-- Sat (Oct 26 - Weekend Peak) -->
+<div class="flex-1 flex flex-col items-center h-full justify-end group cursor-pointer">
+<div class="relative w-full flex flex-col items-center">
+<span class="opacity-0 group-hover:opacity-100 transition-opacity absolute -top-6 font-label-sm text-label-sm bg-inverse-surface text-inverse-on-surface px-1.5 py-0.5 rounded shadow-md z-20 pointer-events-none">$198</span>
+<div class="w-full max-w-[26px] bg-secondary-container rounded-t-md transition-all duration-300 group-hover:bg-primary-container" style="height: 86px;"></div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary mt-2">S 26</span>
+</div>
+<!-- Sun (Oct 27 - Thrift/Saved) -->
+<div class="flex-1 flex flex-col items-center h-full justify-end group cursor-pointer">
+<div class="relative w-full flex flex-col items-center">
+<span class="opacity-0 group-hover:opacity-100 transition-opacity absolute -top-6 font-label-sm text-label-sm bg-inverse-surface text-inverse-on-surface px-1.5 py-0.5 rounded shadow-md z-20 pointer-events-none">$48</span>
+<div class="w-full max-w-[26px] bg-[#269B91]/30 rounded-t-md transition-all duration-300 group-hover:bg-[#269B91]" style="height: 24px;"></div>
+</div>
+<span class="font-label-sm text-label-sm text-[#269B91] font-semibold mt-2">S 27</span>
+</div>
+</div>
+<div class="flex items-center justify-between mt-3 pt-2.5 bg-surface-container-low px-3 py-2 rounded-DEFAULT">
+<span class="font-label-sm text-label-sm text-secondary">Weekly Avg: <strong class="text-on-surface">$134 / day</strong></span>
+<span class="font-label-sm text-label-sm text-primary font-semibold flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px]">insights</span> Well calibrated
+        </span>
+</div>
+</div>
+</div>
+<!-- Upcoming Bills Alert Row -->
+<div class="flex flex-col gap-2.5">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1.5">
+<span class="font-headline-sm text-headline-sm text-on-surface">Upcoming Fixed Bills</span>
+<span class="font-label-sm text-label-sm px-1.5 py-0.5 rounded-full bg-surface-container-high text-secondary">3 due</span>
+</div>
+<a class="font-label-sm text-label-sm text-primary font-semibold hover:underline" href="#">Manage</a>
+</div>
+<div class="flex gap-2.5 overflow-x-auto pb-1 -mx-margin px-margin">
+<!-- Spotify -->
+<div class="flex-shrink-0 w-44 p-3 rounded-DEFAULT bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-2">
+<div class="flex items-center justify-between">
+<div class="w-7 h-7 rounded-full bg-[#1DB954]/15 text-[#1DB954] flex items-center justify-center font-bold text-xs">
+<span class="material-symbols-outlined text-[16px]">music_note</span>
+</div>
+<span class="font-label-sm text-label-sm px-1.5 py-0.5 rounded bg-error-container text-on-error-container">In 1 day</span>
+</div>
+<div>
+<span class="font-label-lg text-label-lg text-on-surface block truncate">Spotify Family</span>
+<span class="font-label-sm text-label-sm text-secondary">Due Oct 28</span>
+</div>
+<div class="pt-1 flex items-baseline justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface">$11.99</span>
+<span class="font-label-sm text-label-sm text-secondary">CAD</span>
+</div>
+</div>
+<!-- Hydro One -->
+<div class="flex-shrink-0 w-44 p-3 rounded-DEFAULT bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-2">
+<div class="flex items-center justify-between">
+<div class="w-7 h-7 rounded-full bg-primary/10 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[16px]">bolt</span>
+</div>
+<span class="font-label-sm text-label-sm px-1.5 py-0.5 rounded bg-surface-container text-secondary">Nov 2</span>
+</div>
+<div>
+<span class="font-label-lg text-label-lg text-on-surface block truncate">Hydro One Electricity</span>
+<span class="font-label-sm text-label-sm text-secondary">Pre-authorized</span>
+</div>
+<div class="pt-1 flex items-baseline justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface">$84.20</span>
+<span class="font-label-sm text-label-sm text-secondary">CAD</span>
+</div>
+</div>
+<!-- Apple One -->
+<div class="flex-shrink-0 w-44 p-3 rounded-DEFAULT bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-2">
+<div class="flex items-center justify-between">
+<div class="w-7 h-7 rounded-full bg-inverse-surface/10 text-inverse-surface flex items-center justify-center">
+<span class="material-symbols-outlined text-[16px]">devices</span>
+</div>
+<span class="font-label-sm text-label-sm px-1.5 py-0.5 rounded bg-surface-container text-secondary">Nov 5</span>
+</div>
+<div>
+<span class="font-label-lg text-label-lg text-on-surface block truncate">Apple One Premier</span>
+<span class="font-label-sm text-label-sm text-secondary">Subscription</span>
+</div>
+<div class="pt-1 flex items-baseline justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface">$25.95</span>
+<span class="font-label-sm text-label-sm text-secondary">CAD</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Budget Snapshot Carousel / Section -->
+<div class="flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1.5">
+<span class="font-headline-sm text-headline-sm text-on-surface">Budget Health</span>
+<span class="font-label-sm text-label-sm text-secondary">Oct pacing</span>
+</div>
+<a class="font-label-sm text-label-sm text-primary font-semibold hover:underline" data-path="budget" href="#">View all budgets</a>
+</div>
+<!-- Mini Cards Grid -->
+<div class="grid grid-cols-2 gap-2.5">
+<!-- Housing & Utilities -->
+<div class="p-3.5 rounded-DEFAULT bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-2">
+<div class="flex items-center justify-between">
+<div class="w-8 h-8 rounded-full bg-secondary-fixed text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">roofing</span>
+</div>
+<span class="font-label-sm text-label-sm px-1.5 py-0.5 rounded-full bg-amber-500/10 text-amber-700 font-bold">97%</span>
+</div>
+<div>
+<span class="font-label-md text-label-md text-on-surface truncate block">Housing &amp; Utilities</span>
+<div class="flex items-baseline justify-between mt-1">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">$1,850</span>
+<span class="font-label-sm text-label-sm text-secondary">/ $1,900</span>
+</div>
+</div>
+<!-- Progress rail -->
+<div class="w-full bg-surface-container h-1.5 rounded-full overflow-hidden">
+<div class="bg-amber-500 h-full rounded-full" style="width: 97%;"></div>
+</div>
+</div>
+<!-- Groceries & Dining -->
+<div class="p-3.5 rounded-DEFAULT bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-2">
+<div class="flex items-center justify-between">
+<div class="w-8 h-8 rounded-full bg-[#269B91]/15 text-[#269B91] flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">restaurant</span>
+</div>
+<span class="font-label-sm text-label-sm px-1.5 py-0.5 rounded-full bg-[#269B91]/10 text-[#269B91] font-bold">75%</span>
+</div>
+<div>
+<span class="font-label-md text-label-md text-on-surface truncate block">Groceries &amp; Food</span>
+<div class="flex items-baseline justify-between mt-1">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">$680</span>
+<span class="font-label-sm text-label-sm text-secondary">/ $900</span>
+</div>
+</div>
+<!-- Progress rail -->
+<div class="w-full bg-surface-container h-1.5 rounded-full overflow-hidden">
+<div class="bg-[#269B91] h-full rounded-full" style="width: 75%;"></div>
+</div>
+</div>
+<!-- Transit & Travel -->
+<div class="p-3.5 rounded-DEFAULT bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-2">
+<div class="flex items-center justify-between">
+<div class="w-8 h-8 rounded-full bg-primary-fixed text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">directions_subway</span>
+</div>
+<span class="font-label-sm text-label-sm px-1.5 py-0.5 rounded-full bg-primary-container/10 text-primary font-bold">60%</span>
+</div>
+<div>
+<span class="font-label-md text-label-md text-on-surface truncate block">Transit &amp; Travel</span>
+<div class="flex items-baseline justify-between mt-1">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">$210</span>
+<span class="font-label-sm text-label-sm text-secondary">/ $350</span>
+</div>
+</div>
+<!-- Progress rail -->
+<div class="w-full bg-surface-container h-1.5 rounded-full overflow-hidden">
+<div class="bg-primary-container h-full rounded-full" style="width: 60%;"></div>
+</div>
+</div>
+<!-- Shopping & Tech -->
+<div class="p-3.5 rounded-DEFAULT bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-2">
+<div class="flex items-center justify-between">
+<div class="w-8 h-8 rounded-full bg-tertiary-fixed text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+</div>
+<span class="font-label-sm text-label-sm px-1.5 py-0.5 rounded-full bg-tertiary-fixed-dim/30 text-tertiary font-bold">80%</span>
+</div>
+<div>
+<span class="font-label-md text-label-md text-on-surface truncate block">Shopping &amp; Tech</span>
+<div class="flex items-baseline justify-between mt-1">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">$320</span>
+<span class="font-label-sm text-label-sm text-secondary">/ $400</span>
+</div>
+</div>
+<!-- Progress rail -->
+<div class="w-full bg-surface-container h-1.5 rounded-full overflow-hidden">
+<div class="bg-tertiary-container h-full rounded-full" style="width: 80%;"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Recent Activity Ledger Preview -->
+<div class="flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface">Recent Activity</span>
+<span class="font-label-sm text-label-sm text-secondary">Real-time sync</span>
+</div>
+<div class="w-full rounded-DEFAULT bg-surface-container-lowest shadow-sm divide-y-0 flex flex-col p-2">
+<!-- 1. Equinox Fitness -->
+<div class="flex items-center justify-between p-2.5 rounded-xl hover:bg-surface-container-low transition-colors">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-11 h-11 rounded-xl bg-inverse-surface text-inverse-on-surface flex items-center justify-center font-bold text-sm flex-shrink-0">
+            EQ
+          </div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold truncate">Equinox Fitness</span>
+<span class="font-body-sm text-body-sm text-secondary truncate">Health &amp; Wellness · Amex Cobalt · Oct 24</span>
+</div>
+</div>
+<div class="flex flex-col items-end flex-shrink-0 ml-2">
+<span class="font-headline-sm text-headline-sm text-on-surface">-$220.00</span>
+<span class="font-label-sm text-label-sm text-secondary">CAD</span>
+</div>
+</div>
+<!-- 2. Farm Boy Organic Groceries -->
+<div class="flex items-center justify-between p-2.5 rounded-xl hover:bg-surface-container-low transition-colors">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-11 h-11 rounded-xl bg-[#269B91]/15 text-[#269B91] flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[22px]">local_mall</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-1.5">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold truncate">Farm Boy Organic</span>
+<span class="material-symbols-outlined text-[15px] text-[#269B91]" style="font-variation-settings: 'FILL' 1;" title="Reviewed">check_circle</span>
+</div>
+<span class="font-body-sm text-body-sm text-secondary truncate">Groceries · TD All-Inclusive · Oct 23</span>
+</div>
+</div>
+<div class="flex flex-col items-end flex-shrink-0 ml-2">
+<span class="font-headline-sm text-headline-sm text-on-surface">-$64.18</span>
+<span class="font-label-sm text-label-sm text-secondary">CAD</span>
+</div>
+</div>
+<!-- 3. Apple Store (Needs Review) -->
+<div class="flex items-center justify-between p-2.5 rounded-xl bg-amber-500/5 hover:bg-amber-500/10 transition-colors">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-11 h-11 rounded-xl bg-surface-container-high text-on-surface flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[22px]">phone_iphone</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-1.5">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold truncate">Apple Store</span>
+<span class="font-label-sm text-[10px] px-1.5 py-0.2 rounded-full bg-amber-500/20 text-amber-700 font-bold uppercase">Needs Review</span>
+</div>
+<span class="font-body-sm text-body-sm text-secondary truncate">Apple Pay Import · RBC Visa · Oct 23</span>
+</div>
+</div>
+<div class="flex flex-col items-end flex-shrink-0 ml-2">
+<span class="font-headline-sm text-headline-sm text-on-surface">-$42.50</span>
+<span class="font-label-sm text-label-sm text-secondary">CAD</span>
+</div>
+</div>
+<!-- 4. Direct Deposit Shopify -->
+<div class="flex items-center justify-between p-2.5 rounded-xl hover:bg-surface-container-low transition-colors">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-11 h-11 rounded-xl bg-[#269B91]/15 text-[#269B91] flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">south_west</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold truncate">Shopify Inc</span>
+<span class="font-body-sm text-body-sm text-[#269B91] font-medium truncate">Direct Deposit · Payroll · Oct 15</span>
+</div>
+</div>
+<div class="flex flex-col items-end flex-shrink-0 ml-2">
+<span class="font-headline-sm text-headline-sm text-[#269B91] font-bold">+$3,225.00</span>
+<span class="font-label-sm text-label-sm text-[#269B91]/80">CAD</span>
+</div>
+</div>
+</div>
+<!-- See all CTA -->
+<a class="w-full py-3 rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface font-label-lg text-label-lg text-center font-semibold transition-all active:scale-[0.99] flex items-center justify-center gap-1.5" data-path="activity" href="#">
+<span>See all 42 transactions</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div></main><div class="fixed bottom-20 left-1/2 -translate-x-1/2 z-50 pointer-events-auto"><a aria-label="Add transaction" class="w-14 h-14 rounded-full bg-primary-container text-on-primary flex items-center justify-center shadow-[0_12px_28px_-6px_rgba(72,88,245,0.45)] hover:scale-105 active:scale-95 transition-all duration-200" data-path="new-transaction" href="#"><span class="material-symbols-outlined text-[28px]">add</span></a></div><nav class="fixed bottom-0 w-full z-40 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(24,34,56,0.05)]" data-active-classes="text-primary font-label-md"><div class="h-16 px-space-xs flex items-center justify-around"><a aria-current="page" class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] h-12 transition-colors text-primary font-label-md" data-path="home" href="#"><span class="material-symbols-outlined text-[22px]">home</span><span class="font-label-sm text-label-sm">Home</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="activity" href="#"><span class="material-symbols-outlined text-[22px]">receipt_long</span><span class="font-label-sm text-label-sm">Activity</span></a><div aria-hidden="true" class="w-12 h-12 flex-shrink-0"></div><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="budget" href="#"><span class="material-symbols-outlined text-[22px]">pie_chart</span><span class="font-label-sm text-label-sm">Budget</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="goals" href="#"><span class="material-symbols-outlined text-[22px]">track_changes</span><span class="font-label-sm text-label-sm">Goals</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="more" href="#"><span class="material-symbols-outlined text-[22px]">grid_view</span><span class="font-label-sm text-label-sm">More</span></a></div></nav></body></html>

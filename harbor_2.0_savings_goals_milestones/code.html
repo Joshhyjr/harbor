@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "surface-container": "#edeef2", "inverse-primary": "#bdc2ff", "tertiary-container": "#6b688b", "inverse-surface": "#2e3134", "on-secondary": "#ffffff", "on-tertiary-container": "#f0ebff", "background": "#f8f9fd", "on-error-container": "#93000a", "tertiary-fixed": "#e4dfff", "inverse-on-surface": "#eff1f5", "surface-container-highest": "#e1e2e6", "surface-bright": "#f8f9fd", "primary": "#2a3bdc", "surface-dim": "#d9dade", "secondary-fixed-dim": "#bcc6e3", "secondary": "#545e77", "on-tertiary": "#ffffff", "surface-container-lowest": "#ffffff", "surface-tint": "#3848e7", "on-tertiary-fixed": "#1a1836", "on-secondary-fixed-variant": "#3d465e", "outline": "#757687", "on-tertiary-fixed-variant": "#464363", "primary-fixed": "#dfe0ff", "on-primary-fixed-variant": "#1628d0", "tertiary": "#535071", "surface": "#f8f9fd", "on-primary-container": "#eeedff", "secondary-fixed": "#d9e2ff", "on-surface": "#191c1f", "on-error": "#ffffff", "surface-variant": "#e1e2e6", "outline-variant": "#c5c5d8", "error": "#ba1a1a", "on-surface-variant": "#454655", "error-container": "#ffdad6", "primary-container": "#4858f5", "tertiary-fixed-dim": "#c7c2e9", "surface-container-low": "#f2f3f7", "on-primary": "#ffffff", "on-secondary-container": "#58627c", "secondary-container": "#d5dffd", "surface-container-high": "#e7e8ec", "primary-fixed-dim": "#bdc2ff", "on-background": "#191c1f", "on-primary-fixed": "#000767", "on-secondary-fixed": "#111b31" }, borderRadius: { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, spacing: { "space-md": "1rem", "space-lg": "1.5rem", "margin-tablet": "2rem", "space-xs": "0.25rem", "gutter": "1.25rem", "space-xl": "2.25rem", "gutter-desktop": "1.5rem", "margin": "1rem", "margin-desktop": "3rem", "space-sm": "0.5rem" }, fontFamily: { "currency-stat": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "display-hero-mobile": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "display-hero": ["Plus Jakarta Sans"] }, fontSize: { "currency-stat": ["28px", { "lineHeight": "34px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-sm": ["13px", { "lineHeight": "18px", "letterSpacing": "0.005em", "fontWeight": "400" }], "body-lg": ["16px", { "lineHeight": "24px", "letterSpacing": "-0.005em", "fontWeight": "400" }], "headline-sm": ["18px", { "lineHeight": "24px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "700" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-md": ["22px", { "lineHeight": "28px", "letterSpacing": "-0.015em", "fontWeight": "600" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "display-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.025em", "fontWeight": "700" }], "body-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }], "display-hero": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.03em", "fontWeight": "700" }] } } } };</script><style>@layer base { html, body { min-height: 100%; margin: 0; padding: 0; } body { overscroll-behavior-y: none; -webkit-font-smoothing: antialiased; } .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); } .pt-safe { padding-top: env(safe-area-inset-top, 0px); } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface antialiased flex flex-col min-h-full"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(24,34,56,0.04)]"><div class="h-16 px-gutter flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="Harbor Emblem Logo" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1V7BOayx_jOtxQuwNMRJjbtehgFtRP8SiDRdUWF7uTnUhXEK3dKEmN1LqsgQvzOzXS2MMHg_HsLfg7uutyAmO0DkCqo3iFKxhSrujgw6OE8FzL4Sun-2nGYIoY89FBWlyIQwyjgRT8Ffzd_acNe-tdG9c-JCTeRxnHqBPMnHf7Q7lm22NglUEoHFvarPcBNYni64g1dGcivvlWkhMy85l9b8YCd9m1HBF9AuHtiVaBK0klgg11Q9gCqWnpJ"/><div class="flex flex-col min-w-0"><span class="font-headline-sm text-headline-sm text-on-surface leading-none tracking-tight truncate">Harbor</span><span class="font-label-sm text-label-sm text-on-surface-variant leading-tight truncate">Home</span></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><a aria-label="Notifications" class="relative w-11 h-11 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container-high transition-colors" data-path="notifications" href="#"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-primary-container ring-2 ring-surface"></span></a><a aria-label="Profile" class="flex items-center p-0.5 rounded-full hover:ring-2 hover:ring-primary/20 transition-all" data-path="more" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDA3k5_X8tbWsWrBG6Q7wVHuIaQhYrUS-zMFPHE0RPw7TgJzlhZcUeY3ixG-amcGpsrJggeF7p4AurWmCHKUG6qvutdflVkGHv3DE3oZqwMQsE--HdUHIHwdAMfwLPKLvGSf4CGyVQYOZx4eAQRXewCLGirbFlMg_J77Fh0nQ15nNR9TydJB84LWyb3-tEZjmIleD1WJm3vMsoQMqYuJ6HytEdIjkfGtD565KXhgmYczzSs7FFbl0goWg"/></a></div></div></header><main class="flex-1 w-full pt-16 pb-28 bg-surface px-margin"><div class="flex flex-col w-full pb-8">
+<!-- Dynamic Confetti / Delight Canvas (Ambient) -->
+<canvas class="fixed inset-0 pointer-events-none z-30 w-full h-full opacity-0 transition-opacity duration-700" id="milestone-confetti"></canvas>
+<!-- Overview Summary Hero Card (Layer 1 Inverted Variant: Midnight Navy) -->
+<section class="relative overflow-hidden rounded-lg bg-inverse-surface text-on-tertiary p-space-lg shadow-xl mb-gutter">
+<!-- Ambient Luminous Gradient Mesh -->
+<div class="absolute -top-16 -right-16 w-48 h-48 rounded-full bg-primary-container/25 blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-20 -left-12 w-44 h-44 rounded-full bg-tertiary-container/30 blur-2xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col gap-space-md">
+<!-- Milestone Celebration Toast / Banner -->
+<button class="w-full text-left bg-surface-container-lowest/10 backdrop-blur-md rounded-full px-space-md py-space-xs flex items-center justify-between gap-space-xs hover:bg-surface-container-lowest/15 transition-all active:scale-[0.98]" onclick="triggerCelebrationSparkle()">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="text-base select-none">🎉</span>
+<span class="font-label-sm text-label-sm text-tertiary-fixed font-bold truncate">Milestone achieved: Emergency Fund fully funded 100%!</span>
+</div>
+<span class="material-symbols-outlined text-tertiary-fixed text-[18px] flex-shrink-0">arrow_back_ios_new</span>
+</button>
+<!-- Balance & Target Display -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-baseline justify-between">
+<span class="font-label-md text-label-md uppercase tracking-wider text-outline-variant font-semibold">Total Saved Across Goals</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-primary-container/40 text-primary-fixed font-semibold">54.7% Achieved</span>
+</div>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-display-hero-mobile text-display-hero-mobile font-extrabold tracking-tight text-surface-container-lowest">$42,650</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-outline-variant">/ $78,000 CAD</span>
+</div>
+</div>
+<!-- Segmented Gradient Rail -->
+<div class="w-full h-2.5 rounded-full bg-surface-container-lowest/15 p-0.5 flex items-center overflow-hidden">
+<div class="h-full rounded-full bg-gradient-to-r from-primary-container via-primary-fixed to-secondary-container transition-all duration-1000 ease-out" style="width: 54.7%"></div>
+</div>
+<!-- Hero Submetrics Footer -->
+<div class="grid grid-cols-2 gap-space-sm pt-space-xs">
+<div class="flex items-center gap-space-xs bg-surface-container-lowest/5 rounded-DEFAULT p-space-sm backdrop-blur-sm">
+<div class="w-8 h-8 rounded-full bg-primary-container/30 flex items-center justify-center text-primary-fixed">
+<span class="material-symbols-outlined text-[18px]">calendar_month</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-outline-variant">Auto-Allocate</span>
+<span class="font-label-lg text-label-lg text-surface-container-lowest font-bold truncate">$1,250<span class="text-xs font-normal text-outline-variant">/mo</span></span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container-lowest/5 rounded-DEFAULT p-space-sm backdrop-blur-sm">
+<div class="w-8 h-8 rounded-full bg-tertiary-container/40 flex items-center justify-center text-tertiary-fixed">
+<span class="material-symbols-outlined text-[18px]">trending_up</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-outline-variant">Pacing Target</span>
+<span class="font-label-lg text-label-lg text-surface-container-lowest font-bold truncate">3 hit in 2025</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Segmented Filter Controls -->
+<section class="mb-gutter">
+<div class="flex items-center gap-space-xs overflow-x-auto no-scrollbar py-1" id="goal-filters">
+<button class="filter-chip px-space-md py-2 rounded-full font-label-md text-label-md transition-all whitespace-nowrap bg-primary-container text-on-primary shadow-sm" onclick="filterGoals('all', this)">
+        All Goals (5)
+      </button>
+<button class="filter-chip px-space-md py-2 rounded-full font-label-md text-label-md transition-all whitespace-nowrap bg-surface-container-low text-on-surface-variant hover:bg-surface-container" onclick="filterGoals('in-progress', this)">
+        In Progress (4)
+      </button>
+<button class="filter-chip px-space-md py-2 rounded-full font-label-md text-label-md transition-all whitespace-nowrap bg-surface-container-low text-on-surface-variant hover:bg-surface-container" onclick="filterGoals('high-priority', this)">
+        High Priority (2)
+      </button>
+<button class="filter-chip px-space-md py-2 rounded-full font-label-md text-label-md transition-all whitespace-nowrap bg-surface-container-low text-on-surface-variant hover:bg-surface-container" onclick="filterGoals('completed', this)">
+        Completed (1)
+      </button>
+</div>
+</section>
+<!-- Goals List Cards Stack -->
+<section class="flex flex-col gap-space-md mb-gutter" id="goals-container">
+<!-- Card 1: Emergency Fund (Completed Milestone Celebration) -->
+<div class="goal-card group bg-surface-container-lowest rounded-lg p-space-lg shadow-sm hover:shadow-md transition-all relative overflow-hidden" data-category="completed high-priority">
+<!-- Subtle Decorative Accent Glow -->
+<div class="absolute -right-8 -top-8 w-28 h-28 rounded-full bg-secondary-container/40 blur-2xl pointer-events-none"></div>
+<div class="flex items-start justify-between gap-space-sm mb-space-md">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-12 h-12 rounded-xl bg-secondary-container flex items-center justify-center text-on-secondary-container flex-shrink-0">
+<span class="material-symbols-outlined text-[26px]" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold truncate">Emergency Fund</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">EQ Bank High Interest Savings</span>
+</div>
+</div>
+<span class="px-space-sm py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-bold flex-shrink-0 flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+          Fully Funded
+        </span>
+</div>
+<!-- Financial Metrics -->
+<div class="flex items-baseline justify-between mb-space-xs">
+<div class="flex items-baseline gap-1">
+<span class="font-currency-stat text-currency-stat text-on-surface font-extrabold tracking-tight">$20,000</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ $20,000 CAD</span>
+</div>
+<span class="font-label-lg text-label-lg font-bold text-on-secondary-container">100%</span>
+</div>
+<!-- Complete Progress Rail -->
+<div class="w-full h-2 rounded-full bg-surface-container mb-space-md overflow-hidden">
+<div class="h-full bg-secondary-container rounded-full w-full"></div>
+</div>
+<!-- Milestone Badge & Note -->
+<div class="p-space-sm bg-surface-container-low rounded-DEFAULT flex items-center justify-between gap-space-xs">
+<div class="flex items-center gap-2 min-w-0">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">6 months living costs fully secured</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold flex-shrink-0">Sep 15, 2024</span>
+</div>
+</div>
+<!-- Card 2: First Home Down Payment (High Priority) -->
+<div class="goal-card bg-surface-container-lowest rounded-lg p-space-lg shadow-sm hover:shadow-md transition-all relative overflow-hidden" data-category="in-progress high-priority">
+<div class="flex items-start justify-between gap-space-sm mb-space-md">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[26px]">home_work</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-1.5">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold truncate">First Home Down Payment</h3>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Wealthsimple FHSA • $750/mo auto-deposit</span>
+</div>
+</div>
+<span class="px-space-sm py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm font-bold flex-shrink-0">
+          On Track
+        </span>
+</div>
+<!-- Financial Metrics -->
+<div class="flex items-baseline justify-between mb-space-xs">
+<div class="flex items-baseline gap-1">
+<span class="font-currency-stat text-currency-stat text-on-surface font-extrabold tracking-tight">$15,400</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ $40,000 CAD</span>
+</div>
+<span class="font-label-lg text-label-lg font-bold text-primary">38.5%</span>
+</div>
+<!-- Segmented Bar -->
+<div class="w-full h-2 rounded-full bg-surface-container mb-space-sm overflow-hidden">
+<div class="h-full bg-primary-container rounded-full transition-all duration-700" style="width: 38.5%"></div>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant mb-space-lg">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">schedule</span>
+          Target: Dec 2026
+        </span>
+<span class="font-semibold text-primary">26 months left</span>
+</div>
+<!-- Micro-Milestones Stepper -->
+<div class="bg-surface-container-low rounded-DEFAULT p-space-md flex flex-col gap-space-sm mb-space-md">
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span class="font-bold text-on-surface">Milestone Ladder</span>
+<span class="text-primary font-medium">$4,600 away from $20k mark</span>
+</div>
+<!-- 4 Step Rail -->
+<div class="relative flex items-center justify-between pt-1">
+<!-- Baseline background track -->
+<div class="absolute left-3 right-3 top-3 h-0.5 bg-surface-container-highest -z-0"></div>
+<div class="absolute left-3 top-3 h-0.5 bg-primary-container -z-0" style="width: 36%;"></div>
+<!-- Step 1: Reached -->
+<div class="flex flex-col items-center gap-1 z-10">
+<div class="w-5 h-5 rounded-full bg-primary-container text-on-primary flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-[12px] font-bold">check</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-bold">$10k</span>
+</div>
+<!-- Step 2: In Progress -->
+<div class="flex flex-col items-center gap-1 z-10">
+<div class="w-5 h-5 rounded-full bg-primary-fixed border-2 border-primary-container flex items-center justify-center shadow-xs">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold">$20k</span>
+</div>
+<!-- Step 3: Up Next -->
+<div class="flex flex-col items-center gap-1 z-10">
+<div class="w-5 h-5 rounded-full bg-surface-container-highest flex items-center justify-center">
+<span class="w-1.5 h-1.5 rounded-full bg-outline-variant"></span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">$30k</span>
+</div>
+<!-- Step 4: Final Target -->
+<div class="flex flex-col items-center gap-1 z-10">
+<div class="w-5 h-5 rounded-full bg-surface-container-highest flex items-center justify-center">
+<span class="material-symbols-outlined text-[12px] text-outline">flag</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">$40k</span>
+</div>
+</div>
+</div>
+<!-- Action Simulation Pill Button -->
+<button class="w-full flex items-center justify-between py-space-sm px-space-md rounded-full bg-primary-fixed/50 hover:bg-primary-fixed transition-colors text-primary font-label-md text-label-md font-bold" onclick="togglePaceSimulation(this)">
+<span class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px]">bolt</span>
+          Simulate faster target (+ $200/mo)
+        </span>
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+<!-- Simulation Drawer (Collapsible) -->
+<div class="hidden mt-space-sm p-space-md rounded-DEFAULT bg-primary-fixed/20 border-primary-container flex flex-col gap-space-xs transition-all" id="pace-simulator">
+<div class="flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-on-surface">Boost to <strong>$950/mo</strong> auto-deposit</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">Finish 6 months early!</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">New estimated completion: <strong>June 2026</strong>. Saves 180 days of rent.</p>
+</div>
+</div>
+<!-- Card 3: Japan Autumn 2025 Trip (Vacation) -->
+<div class="goal-card bg-surface-container-lowest rounded-lg p-space-lg shadow-sm hover:shadow-md transition-all relative overflow-hidden" data-category="in-progress">
+<!-- Location image preview header tag -->
+<div class="flex items-start justify-between gap-space-sm mb-space-md">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed flex-shrink-0">
+<span class="material-symbols-outlined text-[26px]">flight_takeoff</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold truncate">Japan Autumn 2025 Trip</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Tangerine Savings • $250/mo</span>
+</div>
+</div>
+<span class="px-space-sm py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-bold flex-shrink-0">
+          Pacing Well
+        </span>
+</div>
+<!-- Financial Metrics -->
+<div class="flex items-baseline justify-between mb-space-xs">
+<div class="flex items-baseline gap-1">
+<span class="font-currency-stat text-currency-stat text-on-surface font-extrabold tracking-tight">$4,800</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ $7,500 CAD</span>
+</div>
+<span class="font-label-lg text-label-lg font-bold text-tertiary">64.0%</span>
+</div>
+<!-- Dual Tone Progress Track -->
+<div class="w-full h-2 rounded-full bg-surface-container mb-space-sm overflow-hidden flex">
+<div class="h-full bg-tertiary-container rounded-l-full" style="width: 53.3%"></div>
+<div class="h-full bg-tertiary-fixed-dim rounded-r-full" style="width: 10.7%"></div>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant mb-space-md">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">event</span>
+          Target: Sep 2025
+        </span>
+<span class="font-semibold text-tertiary">11 months left</span>
+</div>
+<!-- Sub-Bucket Breakdown Grid -->
+<div class="grid grid-cols-3 gap-space-xs">
+<div class="bg-surface-container-low rounded-DEFAULT p-space-sm flex flex-col">
+<div class="flex items-center gap-1 text-on-surface mb-0.5">
+<span class="material-symbols-outlined text-[14px] text-tertiary">airplane_ticket</span>
+<span class="font-label-sm text-label-sm font-bold">Flights</span>
+</div>
+<span class="font-label-md text-label-md font-bold text-on-surface">$2,400</span>
+<span class="font-label-sm text-label-sm text-secondary">Paid 100%</span>
+</div>
+<div class="bg-surface-container-low rounded-DEFAULT p-space-sm flex flex-col">
+<div class="flex items-center gap-1 text-on-surface mb-0.5">
+<span class="material-symbols-outlined text-[14px] text-tertiary">hotel</span>
+<span class="font-label-sm text-label-sm font-bold">Hotels</span>
+</div>
+<span class="font-label-md text-label-md font-bold text-on-surface">$1,600</span>
+<span class="font-label-sm text-label-sm text-secondary">Secured</span>
+</div>
+<div class="bg-surface-container-low rounded-DEFAULT p-space-sm flex flex-col">
+<div class="flex items-center gap-1 text-on-surface mb-0.5">
+<span class="material-symbols-outlined text-[14px] text-tertiary">ramen_dining</span>
+<span class="font-label-sm text-label-sm font-bold">Dining</span>
+</div>
+<span class="font-label-md text-label-md font-bold text-on-surface">$800</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">of $3,500</span>
+</div>
+</div>
+</div>
+<!-- Card 4: EV Car Replacement Fund -->
+<div class="goal-card bg-surface-container-lowest rounded-lg p-space-lg shadow-sm hover:shadow-md transition-all relative overflow-hidden" data-category="in-progress">
+<div class="flex items-start justify-between gap-space-sm mb-space-md">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed flex-shrink-0">
+<span class="material-symbols-outlined text-[26px]">electric_car</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold truncate">EV Car Replacement Fund</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">High-Yield Vault • $150/mo</span>
+</div>
+</div>
+<span class="px-space-sm py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant font-label-sm text-label-sm font-bold flex-shrink-0">
+          Building Momentum
+        </span>
+</div>
+<!-- Financial Metrics -->
+<div class="flex items-baseline justify-between mb-space-xs">
+<div class="flex items-baseline gap-1">
+<span class="font-currency-stat text-currency-stat text-on-surface font-extrabold tracking-tight">$2,450</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ $10,500 CAD</span>
+</div>
+<span class="font-label-lg text-label-lg font-bold text-secondary">23.3%</span>
+</div>
+<!-- Bar -->
+<div class="w-full h-2 rounded-full bg-surface-container mb-space-sm overflow-hidden">
+<div class="h-full bg-secondary rounded-full" style="width: 23.3%"></div>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">flag</span>
+          Target: May 2026
+        </span>
+<span>19 months remaining</span>
+</div>
+</div>
+</section>
+<!-- Automated Booster Card (Smart Round-ups & Surge Boost) -->
+<section class="bg-surface-container-lowest rounded-lg p-space-lg shadow-sm mb-gutter flex items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center text-primary-container flex-shrink-0">
+<span class="material-symbols-outlined text-[24px]">change_circle</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-1.5">
+<h4 class="font-label-lg text-label-lg text-on-surface font-bold">Spare Change Round-ups</h4>
+<span class="w-2 h-2 rounded-full bg-primary-container"></span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate">
+<strong class="text-on-surface">+$48.20 CAD</strong> injected this month into Travel Fund
+        </p>
+</div>
+</div>
+<button class="px-space-md py-space-xs rounded-full bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-sm text-label-sm font-semibold transition-colors flex-shrink-0">
+      Configure
+    </button>
+</section>
+<!-- Create New Goal Hero Action & Preset Drawer -->
+<section class="flex flex-col gap-space-sm mb-gutter">
+<button class="w-full py-4 px-space-lg rounded-full bg-primary-container hover:bg-primary text-on-primary font-label-lg text-label-lg font-bold flex items-center justify-center gap-2 shadow-md hover:shadow-lg active:scale-[0.98] transition-all" onclick="togglePresetDrawer()">
+<span class="material-symbols-outlined text-[22px]">add_circle</span>
+      Create New Goal
+    </button>
+<!-- Quick Preset Chips -->
+<div class="pt-space-xs flex items-center gap-space-xs overflow-x-auto no-scrollbar" id="preset-drawer">
+<span class="font-label-sm text-label-sm text-on-surface-variant whitespace-nowrap pl-1">Presets:</span>
+<button class="px-space-md py-1.5 rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface font-label-sm text-label-sm font-medium flex items-center gap-1 whitespace-nowrap transition-colors">
+<span class="material-symbols-outlined text-[16px] text-primary">shield</span>
+        Emergency
+      </button>
+<button class="px-space-md py-1.5 rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface font-label-sm text-label-sm font-medium flex items-center gap-1 whitespace-nowrap transition-colors">
+<span class="material-symbols-outlined text-[16px] text-tertiary">beach_access</span>
+        Travel
+      </button>
+<button class="px-space-md py-1.5 rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface font-label-sm text-label-sm font-medium flex items-center gap-1 whitespace-nowrap transition-colors">
+<span class="material-symbols-outlined text-[16px] text-secondary">directions_car</span>
+        Vehicle
+      </button>
+<button class="px-space-md py-1.5 rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface font-label-sm text-label-sm font-medium flex items-center gap-1 whitespace-nowrap transition-colors">
+<span class="material-symbols-outlined text-[16px] text-primary-container">school</span>
+        Education
+      </button>
+<button class="px-space-md py-1.5 rounded-full bg-surface-container-low hover:bg-surface-container text-on-surface font-label-sm text-label-sm font-medium flex items-center gap-1 whitespace-nowrap transition-colors">
+<span class="material-symbols-outlined text-[16px] text-outline">tune</span>
+        Custom
+      </button>
+</div>
+</section>
+<!-- Local Storage & Privacy Guard Badge -->
+<footer class="flex items-center justify-center gap-space-xs py-space-sm text-outline font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">lock</span>
+<span>Harbor Vault: Encrypted 256-bit AES • Local sync safe</span>
+</footer>
+</div>
+<script>
+  // Simple filter logic for Goals segment chips
+  function filterGoals(category, btnElement) {
+    const chips = document.querySelectorAll('.filter-chip');
+    chips.forEach(chip => {
+      chip.className = 'filter-chip px-space-md py-2 rounded-full font-label-md text-label-md transition-all whitespace-nowrap bg-surface-container-low text-on-surface-variant hover:bg-surface-container';
+    });
+    btnElement.className = 'filter-chip px-space-md py-2 rounded-full font-label-md text-label-md transition-all whitespace-nowrap bg-primary-container text-on-primary shadow-sm';
+
+    const cards = document.querySelectorAll('.goal-card');
+    cards.forEach(card => {
+      const cats = card.getAttribute('data-category') || '';
+      if (category === 'all' || cats.includes(category)) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  // Interactive toggle for fast-pacing simulator
+  function togglePaceSimulation(btn) {
+    const drawer = document.getElementById('pace-simulator');
+    if (drawer.classList.contains('hidden')) {
+      drawer.classList.remove('hidden');
+      btn.querySelector('.material-symbols-outlined:last-child').innerText = 'expand_less';
+    } else {
+      drawer.classList.add('hidden');
+      btn.querySelector('.material-symbols-outlined:last-child').innerText = 'chevron_right';
+    }
+  }
+
+  // Celebration Sparkle / Micro Delight interaction
+  function triggerCelebrationSparkle() {
+    const canvas = document.getElementById('milestone-confetti');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    canvas.classList.remove('opacity-0');
+    canvas.classList.add('opacity-100');
+
+    const particles = [];
+    const colors = ['#4858F5', '#DCD7FF', '#269B91', '#FFBD96', '#EDE8FF'];
+
+    for (let i = 0; i < 45; i++) {
+      particles.push({
+        x: canvas.width / 2 + (Math.random() - 0.5) * 120,
+        y: canvas.height * 0.28 + (Math.random() - 0.5) * 40,
+        vx: (Math.random() - 0.5) * 7,
+        vy: (Math.random() - 1.2) * 6,
+        size: Math.random() * 6 + 3,
+        color: colors[Math.floor(Math.random() * colors.length)],
+        rotation: Math.random() * 360,
+        rSpeed: (Math.random() - 0.5) * 8,
+        life: 1.0
+      });
+    }
+
+    let frame = 0;
+    function render() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      let alive = false;
+      particles.forEach(p => {
+        p.x += p.vx;
+        p.y += p.vy;
+        p.vy += 0.18; // gravity
+        p.rotation += p.rSpeed;
+        p.life -= 0.018;
+
+        if (p.life > 0) {
+          alive = true;
+          ctx.save();
+          ctx.translate(p.x, p.y);
+          ctx.rotate((p.rotation * Math.PI) / 180);
+          ctx.globalAlpha = Math.max(0, p.life);
+          ctx.fillStyle = p.color;
+          ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size);
+          ctx.restore();
+        }
+      });
+
+      frame++;
+      if (alive && frame < 90) {
+        requestAnimationFrame(render);
+      } else {
+        canvas.classList.remove('opacity-100');
+        canvas.classList.add('opacity-0');
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+      }
+    }
+    render();
+  }
+
+  function togglePresetDrawer() {
+    const el = document.getElementById('preset-drawer');
+    el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  // Set active class for the Goals tab in App Shell
+  document.addEventListener('DOMContentLoaded', () => {
+    const goalsNav = document.querySelector('nav a[data-path="goals"]');
+    if (goalsNav) {
+      goalsNav.classList.remove('text-on-surface-variant');
+      goalsNav.classList.add('text-primary');
+      const icon = goalsNav.querySelector('.material-symbols-outlined');
+      if (icon) {
+        icon.style.fontVariationSettings = "'FILL' 1";
+      }
+    }
+  });
+</script></main><div class="fixed bottom-20 left-1/2 -translate-x-1/2 z-50 pointer-events-auto"><a aria-label="Add transaction" class="w-14 h-14 rounded-full bg-primary-container text-on-primary flex items-center justify-center shadow-[0_12px_28px_-6px_rgba(72,88,245,0.45)] hover:scale-105 active:scale-95 transition-all duration-200" data-path="new-transaction" href="#"><span class="material-symbols-outlined text-[28px]">add</span></a></div><nav class="fixed bottom-0 w-full z-40 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(24,34,56,0.05)]" data-active-classes="text-primary font-label-md"><div class="h-16 px-space-xs flex items-center justify-around"><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="#"><span class="material-symbols-outlined text-[22px]">home</span><span class="font-label-sm text-label-sm">Home</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="activity" href="#"><span class="material-symbols-outlined text-[22px]">receipt_long</span><span class="font-label-sm text-label-sm">Activity</span></a><div aria-hidden="true" class="w-12 h-12 flex-shrink-0"></div><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="budget" href="#"><span class="material-symbols-outlined text-[22px]">pie_chart</span><span class="font-label-sm text-label-sm">Budget</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="goals" href="#"><span class="material-symbols-outlined text-[22px]">track_changes</span><span class="font-label-sm text-label-sm">Goals</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="more" href="#"><span class="material-symbols-outlined text-[22px]">grid_view</span><span class="font-label-sm text-label-sm">More</span></a></div></nav></body></html>

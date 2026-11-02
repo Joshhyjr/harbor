@@ -1,0 +1,20 @@
+# Local macOS and Xcode state
+.DS_Store
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Generated screenshots, simulator data, and validation runs
+output/
+work/
+*.xcresult/
+
+# Local credentials and signing exports
+.env
+.env.*
+!.env.example
+*.p12
+*.mobileprovision
+*.pem
+*.key

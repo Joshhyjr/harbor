@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0000000000000000000000C8 /* Harbor/Core/Finance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000064 /* Harbor/Core/Finance.swift */; };
+		0000000000000000000000C9 /* Harbor/HarborApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000065 /* Harbor/HarborApp.swift */; };
+		0000000000000000000000CA /* Harbor/UI/Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000066 /* Harbor/UI/Components.swift */; };
+		0000000000000000000000CB /* Harbor/UI/Editors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000067 /* Harbor/UI/Editors.swift */; };
+		0000000000000000000000CC /* Harbor/UI/More.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000068 /* Harbor/UI/More.swift */; };
+		0000000000000000000000CD /* Harbor/UI/Screens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000069 /* Harbor/UI/Screens.swift */; };
+		0000000000000000000000CE /* Harbor/UI/Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000006A /* Harbor/UI/Store.swift */; };
+		0000000000000000000000D0 /* Harbor/Core/LedgerCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000070 /* Harbor/Core/LedgerCipher.swift */; };
+		0000000000000000000000D1 /* Harbor/UI/Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000071 /* Harbor/UI/Security.swift */; };
+		0000000000000000000000D2 /* Harbor/Core/TransactionImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000072 /* Harbor/Core/TransactionImport.swift */; };
+		0000000000000000000000D3 /* Harbor/Core/StatementPDFImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000073 /* Harbor/Core/StatementPDFImport.swift */; };
+		0000000000000000000000D4 /* Harbor/UI/ImportScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000074 /* Harbor/UI/ImportScreen.swift */; };
+		0000000000000000000000D5 /* Harbor/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000075 /* Harbor/Assets.xcassets */; };
+		0000000000000000000000D6 /* Harbor/Core/SpendingForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000076 /* Harbor/Core/SpendingForecast.swift */; };
+		0000000000000000000000D7 /* Harbor/Core/RecurringBills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000077 /* Harbor/Core/RecurringBills.swift */; };
+		0000000000000000000000D8 /* Harbor/Core/Categorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000078 /* Harbor/Core/Categorization.swift */; };
+		000000000000000000000137 /* HarborUITests/HarborUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000136 /* HarborUITests/HarborUITests.swift */; };
+		000000000000000000000190 /* Harbor/Core/ApplePayCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000180 /* Harbor/Core/ApplePayCapture.swift */; };
+		000000000000000000000191 /* Harbor/UI/ApplePayShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000181 /* Harbor/UI/ApplePayShortcuts.swift */; };
+		0000000000000000000001A1 /* Harbor/Core/StatementHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000001A0 /* Harbor/Core/StatementHistory.swift */; };
+		0000000000000000000001A3 /* Harbor/UI/Reconciliation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000001A2 /* Harbor/UI/Reconciliation.swift */; };
+		0000000000000000000001B1 /* Harbor/Core/Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000001B0 /* Harbor/Core/Reminders.swift */; };
+		0000000000000000000001B3 /* Harbor/UI/ReminderScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000001B2 /* Harbor/UI/ReminderScreens.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		000000000000000000000134 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000000000000000004;
+			remoteInfo = Harbor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000005 /* Harbor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harbor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000064 /* Harbor/Core/Finance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harbor/Core/Finance.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000065 /* Harbor/HarborApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harbor/HarborApp.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000066 /* Harbor/UI/Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harbor/UI/Components.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000067 /* Harbor/UI/Editors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harbor/UI/Editors.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000068 /* Harbor/UI/More.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harbor/UI/More.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000069 /* Harbor/UI/Screens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harbor/UI/Screens.swift; sourceTree = SOURCE_ROOT; };
+		00000000000000000000006A /* Harbor/UI/Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harbor/UI/Store.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000070 /* Harbor/Core/LedgerCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harbor/Core/LedgerCipher.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000071 /* Harbor/UI/Security.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harbor/UI/Security.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000072 /* Harbor/Core/TransactionImport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harbor/Core/TransactionImport.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000073 /* Harbor/Core/StatementPDFImport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harbor/Core/StatementPDFImport.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000074 /* Harbor/UI/ImportScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harbor/UI/ImportScreen.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000075 /* Harbor/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Harbor/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		000000000000000000000076 /* Harbor/Core/SpendingForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harbor/Core/SpendingForecast.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000077 /* Harbor/Core/RecurringBills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harbor/Core/RecurringBills.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000078 /* Harbor/Core/Categorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harbor/Core/Categorization.swift; sourceTree = SOURCE_ROOT; };
+		00000000000000000000012D /* HarborUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = HarborUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000136 /* HarborUITests/HarborUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarborUITests/HarborUITests.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000180 /* Harbor/Core/ApplePayCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harbor/Core/ApplePayCapture.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000181 /* Harbor/UI/ApplePayShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harbor/UI/ApplePayShortcuts.swift; sourceTree = SOURCE_ROOT; };
+		0000000000000000000001A0 /* Harbor/Core/StatementHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harbor/Core/StatementHistory.swift; sourceTree = SOURCE_ROOT; };
+		0000000000000000000001A2 /* Harbor/UI/Reconciliation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harbor/UI/Reconciliation.swift; sourceTree = SOURCE_ROOT; };
+		0000000000000000000001B0 /* Harbor/Core/Reminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harbor/Core/Reminders.swift; sourceTree = SOURCE_ROOT; };
+		0000000000000000000001B2 /* Harbor/UI/ReminderScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Harbor/UI/ReminderScreens.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000000000000000000000007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00000000000000000000012F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				0000000000000000000001B2 /* Harbor/UI/ReminderScreens.swift */,
+				0000000000000000000001B0 /* Harbor/Core/Reminders.swift */,
+				000000000000000000000181 /* Harbor/UI/ApplePayShortcuts.swift */,
+				0000000000000000000001A0 /* Harbor/Core/StatementHistory.swift */,
+				0000000000000000000001A2 /* Harbor/UI/Reconciliation.swift */,
+				000000000000000000000180 /* Harbor/Core/ApplePayCapture.swift */,
+				000000000000000000000077 /* Harbor/Core/RecurringBills.swift */,
+				000000000000000000000078 /* Harbor/Core/Categorization.swift */,
+				000000000000000000000076 /* Harbor/Core/SpendingForecast.swift */,
+				000000000000000000000075 /* Harbor/Assets.xcassets */,
+				000000000000000000000074 /* Harbor/UI/ImportScreen.swift */,
+				000000000000000000000073 /* Harbor/Core/StatementPDFImport.swift */,
+				000000000000000000000072 /* Harbor/Core/TransactionImport.swift */,
+				000000000000000000000071 /* Harbor/UI/Security.swift */,
+				000000000000000000000070 /* Harbor/Core/LedgerCipher.swift */,
+				000000000000000000000064 /* Harbor/Core/Finance.swift */,
+				000000000000000000000065 /* Harbor/HarborApp.swift */,
+				000000000000000000000066 /* Harbor/UI/Components.swift */,
+				000000000000000000000067 /* Harbor/UI/Editors.swift */,
+				000000000000000000000068 /* Harbor/UI/More.swift */,
+				000000000000000000000069 /* Harbor/UI/Screens.swift */,
+				00000000000000000000006A /* Harbor/UI/Store.swift */,
+				000000000000000000000136 /* HarborUITests/HarborUITests.swift */,
+				000000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000005 /* Harbor.app */,
+				00000000000000000000012D /* HarborUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000004 /* Harbor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00000000000000000000000B /* Build configuration list for PBXNativeTarget "Harbor" */;
+			buildPhases = (
+				000000000000000000000006 /* Sources */,
+				000000000000000000000007 /* Frameworks */,
+				000000000000000000000008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Harbor;
+			productName = Harbor;
+			productReference = 000000000000000000000005 /* Harbor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00000000000000000000012C /* HarborUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000131 /* Build configuration list for PBXNativeTarget "HarborUITests" */;
+			buildPhases = (
+				00000000000000000000012E /* Sources */,
+				00000000000000000000012F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000000000000000000000135 /* PBXTargetDependency */,
+			);
+			name = HarborUITests;
+			productName = HarborUITests;
+			productReference = 00000000000000000000012D /* HarborUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2700;
+			};
+			buildConfigurationList = 00000000000000000000000A /* Build configuration list for PBXProject "Harbor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000002;
+			productRefGroup = 000000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000004 /* Harbor */,
+				00000000000000000000012C /* HarborUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000000000000000000000008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0000000000000000000000D5 /* Harbor/Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000000000000000006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0000000000000000000001B3 /* Harbor/UI/ReminderScreens.swift in Sources */,
+				0000000000000000000001B1 /* Harbor/Core/Reminders.swift in Sources */,
+				000000000000000000000191 /* Harbor/UI/ApplePayShortcuts.swift in Sources */,
+				0000000000000000000001A1 /* Harbor/Core/StatementHistory.swift in Sources */,
+				0000000000000000000001A3 /* Harbor/UI/Reconciliation.swift in Sources */,
+				000000000000000000000190 /* Harbor/Core/ApplePayCapture.swift in Sources */,
+				0000000000000000000000D7 /* Harbor/Core/RecurringBills.swift in Sources */,
+				0000000000000000000000D8 /* Harbor/Core/Categorization.swift in Sources */,
+				0000000000000000000000D6 /* Harbor/Core/SpendingForecast.swift in Sources */,
+				0000000000000000000000D4 /* Harbor/UI/ImportScreen.swift in Sources */,
+				0000000000000000000000D3 /* Harbor/Core/StatementPDFImport.swift in Sources */,
+				0000000000000000000000D2 /* Harbor/Core/TransactionImport.swift in Sources */,
+				0000000000000000000000D1 /* Harbor/UI/Security.swift in Sources */,
+				0000000000000000000000D0 /* Harbor/Core/LedgerCipher.swift in Sources */,
+				0000000000000000000000C8 /* Harbor/Core/Finance.swift in Sources */,
+				0000000000000000000000C9 /* Harbor/HarborApp.swift in Sources */,
+				0000000000000000000000CA /* Harbor/UI/Components.swift in Sources */,
+				0000000000000000000000CB /* Harbor/UI/Editors.swift in Sources */,
+				0000000000000000000000CC /* Harbor/UI/More.swift in Sources */,
+				0000000000000000000000CD /* Harbor/UI/Screens.swift in Sources */,
+				0000000000000000000000CE /* Harbor/UI/Store.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00000000000000000000012E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000137 /* HarborUITests/HarborUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		000000000000000000000135 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000000000000000000000004 /* Harbor */;
+			targetProxy = 000000000000000000000134 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00000000000000000000000C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		00000000000000000000000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		00000000000000000000000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GLZST59XFT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Harbor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Harbor;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Use Face ID to unlock your Harbor financial records.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIFileSharingEnabled = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josh.harbor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		00000000000000000000000F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GLZST59XFT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Harbor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Harbor;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Use Face ID to unlock your Harbor financial records.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIFileSharingEnabled = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josh.harbor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		000000000000000000000132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josh.harbor.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Harbor;
+			};
+			name = Debug;
+		};
+		000000000000000000000133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josh.harbor.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Harbor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00000000000000000000000A /* Build configuration list for PBXProject "Harbor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000000C /* Debug */,
+				00000000000000000000000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00000000000000000000000B /* Build configuration list for PBXNativeTarget "Harbor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000000E /* Debug */,
+				00000000000000000000000F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000000000000000131 /* Build configuration list for PBXNativeTarget "HarborUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000132 /* Debug */,
+				000000000000000000000133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000000000001 /* Project object */;
+}

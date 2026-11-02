@@ -1,0 +1,6 @@
+Date,Description,Category,Money In (USD),Money Out (USD),Running Balance (USD)
+2026-10-01,Payroll,Income,500.00,0,1500.00
+2026-10-02,Shop,Shopping,0,250.00,1250.00
+2026-10-03,TRANSFER TO SAVINGS,Savings Transfer,0,200.00,1050.00
+2026-10-04,TRANSFER TO SAVINGS,Savings Transfer,0,50.00,1000.00
+2026-10-05,Cafe,Dining,0,5.00,995.00
